@@ -39,4 +39,24 @@ export PATH=$PATH:/usr/local/git/bin:/usr/local/bin
 
 Opret mappe og clon/fork ClientServer projektet
 
-### PM2
+### PM2 (Foreløbig "simple" facon).
+
+command:
+
+```
+npm install pm2 -g
+```
+Med terminalen placeret i Users/web-mcdm/ mappen:
+
+commanf
+```
+pm2 init simple
+```
+
+Der oprettes en `ecosystem.config.js` fil. Åbn denne:
+
+
+
+
+```
+```
