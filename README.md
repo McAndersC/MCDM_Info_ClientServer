@@ -55,8 +55,12 @@ pm2 init simple
 
 Der oprettes en `ecosystem.config.js` fil. Åbn denne:
 
-
-
-
-```
+eco....
+```javascript
+module.exports = {
+    apps: [{
+        name : "INFO:3000",
+        script : "../MCDM/MCDM_Info_ClientServer/index.js"
+    }]
+}
 ```
