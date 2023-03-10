@@ -44,7 +44,7 @@ Opret mappe og clon/fork ClientServer projektet
 command:
 
 ```
-npm install pm2 -g
+npm install pm2@latest -g
 ```
 Med terminalen placeret i Users/web-mcdm/ mappen:
 
