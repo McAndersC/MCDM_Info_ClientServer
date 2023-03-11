@@ -60,7 +60,8 @@ eco....
 module.exports = {
     apps: [{
         name : "INFO:3000",
-        script : "../MCDM/MCDM_Info_ClientServer/index.js"
+        script : "index.js",
+        cwd : "./MCDM/MCDM_Info_ClientServer/"
     }]
 }
 ```
