@@ -53,6 +53,8 @@ commanf
 pm2 init simple
 ```
 
+pm2 startup
+
 Der oprettes en `ecosystem.config.js` fil. Åbn denne:
 
 eco....
