@@ -48,7 +48,7 @@ npm install pm2@latest -g
 ```
 Med terminalen placeret i Users/web-mcdm/ mappen:
 
-commanf
+command
 ```
 pm2 init simple
 ```

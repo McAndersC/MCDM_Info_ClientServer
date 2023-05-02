@@ -9,3 +9,11 @@ setInterval(function() {
 		currentIndex = 0;
 	}
 }, 5000);
+
+
+
+
+fetch('')
+
+const infoBugger = document.querySelector('.info-bugger');
+infoBugger.innerHTML = 
