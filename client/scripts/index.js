@@ -13,7 +13,10 @@ setInterval(function() {
 
 
 
-fetch('')
+fetch('/getLocalIp').then(response => response.json()).then( (result) => {
 
-const infoBugger = document.querySelector('.info-bugger');
-infoBugger.innerHTML = 
+	const infoBugger = document.querySelector('.info-bugger');
+	infoBugger.innerHTML = result.ip;
+
+})
+
